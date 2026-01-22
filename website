@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manav Golecha</title>
+    <meta name="description" content="Manav Golecha — Founder, podcaster, growth guy. Building in the creator economy." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <nav class="nav">
+          <a href="#home">Home</a>
+          <a href="#building">Building</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="home" class="main">
+        <h1 class="title">Manav Golecha</h1>
+        <p class="handle">@manavgolecha</p>
+
+        <section class="content">
+          <p>
+            I’m a founder, podcaster, and “growth guy” currently building in the creator economy space.
+          </p>
+
+          <p>
+            I host <strong>The Manav Podcast</strong>, where I interview top founders, operators, and investors on how their playbook to Win.
+          </p>
+
+          <p>
+            My goal is to build the world’s most influential entrepreneurship podcast.
+          </p>
+
+          <p>
+            Over the last 5 years, my businesses have generated 8-figures in revenue, spanning media, growth consulting,
+            creator platforms, and AI-driven products. I specialize in growth, distribution, and taking ideas from 0 → 1.
+          </p>
+
+          <p>
+            I’m currently building and advising ventures at the intersection of AI, creators, and distribution,
+            including UGC platforms, media brands, and automation-first agencies. I’ve never raised venture capital and
+            prefer building with leverage, speed, and control.
+          </p>
+
+          <p>
+            Before this, I moved from India to the US with no safety net and learned by building—shipping products,
+            running experiments, and learning in public.
+          </p>
+
+          <p>
+            Outside of work, I play polo, train intensely (weights, hot yoga, endurance), host IRL founder events,
+            and obsess over systems for freedom, focus, and love watching documentaries.
+          </p>
+        </section>
+
+        <section id="building" class="section">
+          <h2>Building</h2>
+          <ul class="list">
+            <li>World’s biggest podcast show <a href="https://x.com/manavpod" target="_blank" rel="noreferrer">@manavpod</a></li>
+            <li>Helping UGC creators make more income <a href="https://instagram.com/sundayhumans" target="_blank" rel="noreferrer">@sundayhumans</a></li>
+            <li>Device that turns hard water into soft water.</li>
+          </ul>
+        </section>
+
+        <section id="contact" class="section">
+          <h2>Links</h2>
+          <div class="links">
+            <!-- Replace # with your real links -->
+            <a href="mailto:you@domain.com">Email</a>
+            <a href="https://x.com/manavgolecha" target="_blank" rel="noreferrer">X</a>
+            <a href="https://instagram.com/manavgolecha" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <span>~M</span>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
+:root {
+  --bg: #ffffff;
+  --text: #0b0b0c;
+  --muted: #666a73;
+  --line: rgba(15, 18, 25, 0.12);
+  --max: 760px;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  line-height: 1.65;
+  letter-spacing: -0.01em;
+}
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 28px 18px 56px;
+}
+
+.top {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid transparent;
+}
+
+.nav {
+  display: flex;
+  gap: 14px;
+  padding: 10px 0 14px;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav a:hover { color: var(--text); }
+
+.main { padding-top: 10px; }
+
+.title {
+  font-size: 40px;
+  line-height: 1.15;
+  margin: 18px 0 6px;
+  letter-spacing: -0.03em;
+}
+
+.handle {
+  margin: 0 0 22px;
+  color: var(--muted);
+}
+
+.content p {
+  margin: 0 0 14px;
+  font-size: 16px;
+}
+
+.section {
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.section h2 {
+  font-size: 15px;
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.list li { margin: 8px 0; }
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover { opacity: 0.75; }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.footer {
+  margin-top: 34px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
